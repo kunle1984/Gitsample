@@ -1,2 +1,2 @@
-web: gunicorn realMeetups.wsgi:application --log-file -
+web: gunicorn gitSample.wsgi:application --log-file -
 python manage.py collectstatic --noinput
